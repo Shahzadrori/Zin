@@ -1,0 +1,64 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    position: relative;
+}
+div.one{
+    position:absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: tomato;
+
+}
+div.two{
+    position:absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: crimson;
+
+}
+div.three{
+    position:absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: #aaeeff;
+
+}
+div.link{
+    background-color:grey;
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.onee{
+    position: absolute;
+    left:0%;
+    margin-left: 50px;
+    text-decoration: none;
+    font-size: 30px;
+}
+.homee{
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+}
+.twoo{
+    position: absolute;
+    right:0%;
+    margin-right: 30px;
+    text-decoration: none;
+    font-size: 30px;
+}
+a{
+    color: black;
+}
+a:hover{
+    color: white;
+}
+a:focus{
+    color: lightgreen;
+}
